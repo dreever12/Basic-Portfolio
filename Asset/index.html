@@ -1,45 +1,49 @@
 <!-- CSS Stylesheets with Relative Paths -->
-
 <!DOCTYPE html>
 <html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>CSS Stylesheets with Relative Paths</title>
+    <!-- This line is money! It points your HTML to the CSS file. -->
+    <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Dennyela Reever</h1>
+      
+      <div class="topnav">
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+        <a href="index.html">About</a>
+      </div>
+      
+    </header>
+    <div class="container">
+      <section id="main-bio">
+        <h2>About Me</h2>
+        <img id="bio-image" src="http://weclipart.com/gimg/9C9F917652D5347C/2d96579bde1737bab7b3309f87022853.jpg" alt="">
+        <p>My name is Dennyela Reever and I am a <strong>Web Developer</strong> I spend the majority of my day dabbling in HTML, CSS, Java and every new code out there to man. I love finding new short cuts on my computer (puts a special smile on my face :))</p>
+        <p> I am actually brand new to coding but I love a challenge. Luckily I am taking this class with my bestie so it makes things a tad easier. I can't wait to see what the next 6 months bring me. I am excited to start a new life, new career, and hopfully find a new job down south!
 
-<head>
-  <meta charset="UTF-8">
-  <title>CSS Stylesheets with Relative Paths</title>
-
-  <!-- This line is money! It points your HTML to the CSS file. -->
-  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
-  <link rel="stylesheet" type="text/css" href="assets/style.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-
-</head>
-
-<body>
-  <header>
-    <h1>Dennyela Reever</h1>
-  </header>
-
-  <div class="container">
-
-    <section id="main-bio">
-
-      <h2>About Me</h2>
-
-      <img id="bio-image" src="http://lorempixel.com/output/city-q-g-640-480-10.jpg" alt="Your Name">
-
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
-    </section>
-
-    <section id="contact-info">
-      <h2>Connect with me!</h2>
-      <ul>
-        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-      </ul>
+      </section>
+      <section id="contact-info">
+        <h2>Connect with me!</h2>
+        <div>
+            <a id= "linkedin" href="https://www.linkedin.com/in/dennyela-reever-7814452b/"><img src="Images/linkedin-128.png" height="45" width="45"/>
+        </a>
+        
+          <a id= "github" href="https://github.com/dreever12">
+          <img src="Images/github-128.png" height="45" width="45"/> </a>
+      
+          <a id= "portfolio" href=""><img src="Images/stackoverflow-128.png" height="45" width="45"/></a>
+        </div>
+     
     </section>
   </div>
-
+  <footer>
+    Copyright 2016 Dennyela Reever
+  </footer>
 </body>
 
-  </html> 
+</html>
